@@ -1,0 +1,10 @@
+RUSTBOT TRADE AI — GITHUB PAGES PWA
+© HAK CIPTA RUSTAM, S.E.
+
+Unggah file-file di ZIP ini ke root repositori rustbot-trade-ai (sejajar README.md), lalu commit.
+GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
+Buka https://rustambp76-del.github.io/rustbot-trade-ai/
+
+Di Pengaturan Data, masukkan API Key Twelve Data dan simpan di perangkat. Kunci tidak disertakan dalam repositori, tetapi disimpan di localStorage perangkat dan terlihat dalam permintaan jaringan. Jangan gunakan key rahasia dengan hak istimewa; pantau kuota. Simbol XAU/USD, BTC/USD, ETH/USD, BBCA, timeframe, CORS dan kuota bergantung pada dukungan paket API. Jika endpoint ditolak oleh CORS/paket, browser akan menampilkan error; hosting GitHub Pages tidak menghilangkan batas penyedia data.
+
+Versi ini tidak memakai Google Apps Script. Semua analisis dilakukan di browser, dan tidak mengeksekusi transaksi otomatis. Sinyal BUY/SELL/WAIT serta TP/SL adalah estimasi teknikal, bukan nasihat keuangan atau jaminan keuntungan. Data pasar memerlukan internet.
